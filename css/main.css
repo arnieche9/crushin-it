@@ -1,0 +1,209 @@
+/***Base Styles***/
+
+body {
+   background: #1f202b;
+   font-family: 'Montserrat', sans-serif;
+   height:3350px;
+   width:1400px;
+   margin: auto;
+
+}
+#portfolio {
+   height:1550px;
+   width: 1200px;
+   margin: auto;
+}
+#about {
+   height:550px;
+}
+#contact {
+   height:400px;
+   width:1400px;
+}
+
+/***** GRID ******/
+
+.full-width {
+   width: 1200px;
+   margin: auto;
+}
+.third-width {
+   width: 400px;
+   float: left;
+}
+
+/***Main-Nav***/
+
+#main-nav {
+   height: 75px;
+}
+#main-nav h1 {
+   color: #ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size:30px;
+   padding-top: 20px;
+}
+#main-nav ul{
+   float: right;
+   margin:20px;
+}
+#main-nav ul li{
+   display: inline-block;
+}
+#main-nav ul li a{
+   color: #ffffff;
+   font-size:30px;
+   padding: 30px;
+   text-decoration: none;
+}
+
+/***HEADER***/
+
+#header{
+   height:800px;
+   background: url('../img/hero.png');
+   background-size:cover;
+}
+#header h1{
+   color: #ffffff;
+   font-family: 'Source Code Pro', monospace;
+   font-size:95px;
+   padding-top: 300px;
+}
+#header h1 span {
+   color: #fa0075;
+}
+
+/***PORTFOLIO***/
+
+#portfolio h1{
+   color:#fa0074;
+   font-family: 'Source Code Pro', monospace;
+   font-size:36px;
+   padding-top: 45px;
+   padding-bottom: 100px;
+   text-align: center;
+}
+#portfolio h2 {
+   color:#ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size:24px;
+   font-weight: 700;
+   margin: auto;
+}
+#portfolio h3 {
+   color:#ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size:24px;
+   font-weight: 400;
+   margin: auto;
+}
+#portfolio p {
+   color:#ffffff;
+   font-size:24px;
+
+   padding-right: 50px;
+}
+
+/***Projects***/
+
+#project1, #project2-2, #project3-2 {
+   float:left;
+   height:450px;
+   width:600px;
+
+}
+#project1-2, #project2,#project3 {
+   float:left;
+   height:450px;
+   width:600px;
+
+}
+#project2 h2, h3{
+   padding-right: 50px;
+   text-align: right;
+
+}
+ #project3-2 h3, #project1-2 h3{
+   text-align: left;
+}
+#project2 p {
+   padding-right: 50px;
+   text-align: right;
+
+}
+
+/***About***/
+
+#about {
+   background: url('../img/about.png');
+}
+
+#about h1 {
+   color:#fa0074;
+   font-family: 'Source Code Pro', monospace;
+   font-size:36px;
+   text-align: center;
+}
+
+#about h2 {
+   font-family: 'Montserrat', sans-serif;
+   font-size:24px;
+   font-weight: bold;
+   padding-left: 70px;
+}
+#about p {
+   color:#1f202b;
+   font-size:24px;
+   padding-right:700px;
+   padding-left: 70px;
+}
+
+/***CONTACT***/
+
+#contact .third-width {
+   padding-top: 0px;
+}
+
+#contact h1 {
+   color:#fa0074;
+   font-family: 'Source Code Pro', monospace;
+   font-size: 36px;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+#contact h2 {
+   color:#ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+   text-align: center;
+   font-weight: 700;
+}
+#contact h3 {
+   color:#ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 24px;
+   text-align: center;
+   font-weight: 400;
+   padding-left: 60px;
+}
+#contact h4 {
+   color:#ffffff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   padding-top: 70px;
+   text-align: center;
+
+}
+#contact ul{
+   text-align: center;
+}
+#contact ul li {
+   display: inline-block;
+}
+
+#contact ul img {
+   font-size: 32px;
+   padding-right: 45px;
+}
